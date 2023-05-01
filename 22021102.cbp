@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="22021102" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/22021102" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="sdl2/SDL2-2.26.3/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="sdl2/SDL2_ttf-2.20.2/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="sdl2/SDL2_mixer-2.6.3/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="sdl2/SDL2_image-2.6.3/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="/." />
+					<Add directory="lib" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer" />
+					<Add directory="sdl2/SDL2-2.26.3/x86_64-w64-mingw32/lib" />
+					<Add directory="sdl2/SDL2_ttf-2.20.2/x86_64-w64-mingw32/lib" />
+					<Add directory="sdl2/SDL2_mixer-2.6.3/x86_64-w64-mingw32/lib" />
+					<Add directory="sdl2/SDL2_image-2.6.3/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/22021102" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="code/Game.cpp" />
+		<Unit filename="code/bullet.cpp" />
+		<Unit filename="code/enemy.cpp" />
+		<Unit filename="code/geo.cpp" />
+		<Unit filename="code/main.cpp" />
+		<Unit filename="code/mainCharacter.cpp" />
+		<Unit filename="code/media.cpp" />
+		<Unit filename="code/supmain.cpp" />
+		<Unit filename="lib/Game.h" />
+		<Unit filename="lib/bullet.h" />
+		<Unit filename="lib/const.h" />
+		<Unit filename="lib/enemy.h" />
+		<Unit filename="lib/geo.h" />
+		<Unit filename="lib/mainCharacter.h" />
+		<Unit filename="lib/media.h" />
+		<Unit filename="lib/supmain.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
