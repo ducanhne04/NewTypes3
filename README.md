@@ -1,6 +1,8 @@
 # NewTypes
 game c++/sdl2
 
+Video : https://youtu.be/izqeBUN1Myo 
+
 Mô tả :
 
 - Nhân vật chính sẽ tiêu diệt các đối thủ bằng cách gõ đúng các từ đại diện cho các đối thủ đó 
