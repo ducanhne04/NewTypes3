@@ -3,7 +3,7 @@ game c++/sdl2
 
 Video : https://youtu.be/izqeBUN1Myo 
 
-Cách chạy code : tải codeblocks ( link tải : https://www.codeblocks.org/downloads/binaries/ ) sau đó mở codeblocks lên rồi mở file "22021102.cbp" và chọn "build and run" để chạy code
+Cách chạy code : clone repo này về máy , tải codeblocks ( link tải : https://www.codeblocks.org/downloads/binaries/ ) sau đó mở codeblocks lên rồi mở file "22021102.cbp" và chọn "build and run" để chạy code
 
 Mô tả :
 
