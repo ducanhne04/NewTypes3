@@ -3,6 +3,8 @@ game c++/sdl2
 
 Video : https://youtu.be/izqeBUN1Myo 
 
+Cách chạy code : tải codeblocks ( link tải : https://www.codeblocks.org/downloads/binaries/ ) sau đó mở file "22021102.cbp" và chọn "build and run" để chạy code
+
 Mô tả :
 
 - Nhân vật chính sẽ tiêu diệt các đối thủ bằng cách gõ đúng các từ đại diện cho các đối thủ đó 
